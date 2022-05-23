@@ -1,4 +1,4 @@
 - url: https://refactoringguru.cn/design-patterns/catalog
   wait: 3000
-  output: example.png
+  output: ./output/example.png
 #   height: 800
