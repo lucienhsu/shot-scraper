@@ -29,9 +29,9 @@ jobs:
       with:
         path: ~/.cache/ms-playwright/
         key: ${{ runner.os }}-browsers
-    - name: Install extra fonts
+    - name: Install extra fonts chinese
       run: |
-        sudo apt-get install fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core        
+        sudo apt-get install fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core language-pack-zh-hans language-pack-zh-hans-base language-pack-zh-hant language-pack-zh-hant-base       
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
